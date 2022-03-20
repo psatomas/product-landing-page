@@ -1,0 +1,90 @@
+<html>    
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/productlandingpage.css">
+        <style>
+        @media only screen and (max-width: 768px) {
+          /* For mobile phones: */
+          [class*="col-"] {
+            width: 100%;
+          }
+        }
+        .flex-container{
+          display: flex;
+        }          
+        </style>
+    </head>
+    <body id="body">
+        <header id="header">
+          <div class="box-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Neon.JPG" id="header-img" style="float:left"/>
+            <br><br><br><h1>&emsp;Neon Lights</h1>
+          </div>
+          <Nav id="nav-bar">
+            <ul>
+              <li><a class="nav-link" href="#Reserve-yours-now">Reserve Yours Now</a></li>
+              <li><a class="nav-link" href="#advertise">Advertise</a></li>
+              <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+          </Nav>
+        </header>        
+        <div class="background-image"><br><br><br>
+        <section id="Reserve-yours-now"> 
+          <div id="reserve-box">
+            <div><br><br><br><br><br>
+             <h2>Description</h2>
+              <p>
+                Variety neon lights light up your home,<br><br>
+                add romantic led night signs for home decoration.<br><br>
+                offers a romantic ambiance in your room.<br><br>
+                LED neon lights signs use at low voltage and energy saving,<br><br>
+                light up neon light for room decoration.
+              </p>
+            </div> 
+          </div>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" placeholder="Email address*" name="email"><br>
+            <input id="submit" type="submit" value="Reserve Yours Now" class="btn">            
+          </form>
+        </section>
+        <section id="advertise"><br><br><br><br><br><br><br><br>
+          <iframe id="video" width="700" height="389" src="https://www.youtube.com/embed/Wjt6yyNDWmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section class="flexbox" id="pricing">               
+          <div class="product" id="saturn">
+            <div class="level">Saturn</div>
+            <img class="product-img" src="https://img.ltwebstatic.com/images3_pi/2021/12/13/16393732454dc333f5595d22beeb27713c0b2aa468_thumbnail_600x.webp">
+            <h2>$35</h2>
+            <ol>
+              <li>Planet Neon Sign</li>
+              <li>USB Powered</li>                
+              <li>On/Off Switch</li>
+            </ol>
+            <button class="btn">Buy</button><br>
+          </div>
+          <div class="product" id="ice cream">
+            <div class="level">Ice Cream</div>
+              <img class="product-img" src="https://ae01.alicdn.com/kf/Ha660dff0dce64c55b0207dd3dfee0639u/Led-neon-luz-sinal-de-n-on-picol-l-mpada-caixa-bateria-para-sorvete-loja-pastelaria.jpg_Q90.jpg_.webp">
+              <h2>$45</h2>
+              <ol>
+                <li>Ice Cream Neon Sign</li>
+                <li>Battery/USB Powered</li>                  
+                <li>Light with Stand</li>
+              </ol>
+              <button class="btn">Buy</button><br>
+          </div>
+          <div class="product" id="rainbow">
+            <div class="level">Rainbow</div>
+              <img class="product-img" src="https://img.ltwebstatic.com/images3_pi/2021/11/12/163670069353e053ce8216f0caec8dec00303642d9_thumbnail_600x.webp">
+              <h2>$60</h2>
+              <ol>
+                <li>Rainbow Neon Sign</li>
+                <li>Base Battery Powered</li>
+                <li>Kids Room Decoration</li>
+              </ol>
+              <button class="btn">Buy</button><br>
+          </div> 
+        </section>
+        </div>        
+    </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
