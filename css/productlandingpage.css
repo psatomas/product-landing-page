@@ -14,6 +14,9 @@
     display: flex;
     margin-left: 20px;
     margin-right: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
 }
 .box-container {
     margin: auto;
@@ -161,9 +164,6 @@ nav > ul {
     line-height: 1.4;
     color: white;
     background-color: royalblue;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
 }
 #video {
     display: flex;
